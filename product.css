@@ -1,0 +1,72 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+}
+
+.container {
+    margin: 30px auto;
+    justify-content: center;
+    align-items: center;
+    width: 310px;
+    height: 100%;
+    border: 1px solid grey;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    
+}
+
+form {
+    overflow: auto;
+}
+
+.search-product {
+    padding: 5px 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin: 3px;
+}
+
+.search-product input {
+    outline: none;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border: none;
+    font-size: 17px;
+    opacity: 0.7; 
+}
+
+.search-product input:hover {
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
+    opacity: 1;
+}
+
+.search-product i {
+    cursor: pointer;
+    padding: 0px 10px;
+}
+
+form .product-description{
+    justify-content: space-between;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+    border: 0 solid grey;
+    margin: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+form .product-description:hover {
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
+}
+
+/*Hiding a scroll bar and scroll with a mouse
+.container::webkit-scrollbar{
+    display:none;
+*/
+
+
